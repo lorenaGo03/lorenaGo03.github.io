@@ -1,0 +1,25 @@
+.container{
+    background-color: blueviolet;
+    margin: 5px;
+    text-align: justify;
+
+}
+
+.container .contenido{
+    margin: 25px;
+
+}
+
+.container .contenido .imagen img{
+    width: 300px;
+    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+.container .contenido h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: black;
+}

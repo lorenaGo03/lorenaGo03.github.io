@@ -1,0 +1,42 @@
+.Contenedor{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 10px;
+    background-color: hotpink;
+}
+
+.Contenedor .division{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-shadow: 1px 4px 4px 1px rgb(91, 178, 228);
+    border-radius: 10px;
+    background-color: deeppink;
+    
+}
+
+.Contenedor .division .media img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+} 
+
+.Contenedor .division .media h3{
+    margin: 10px;
+    text-align: center;
+}
+
+.contenido{
+    margin: 20px;
+    display:inline-block;
+
+}
